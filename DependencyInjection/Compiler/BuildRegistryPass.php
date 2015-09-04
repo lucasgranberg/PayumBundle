@@ -34,7 +34,7 @@ class BuildRegistryPass implements CompilerPassInterface
                 if(isset($attributes['name'])){
                     $name = $attributes['name'];
                 }else{
-                    $name = $attributes['alias']
+                    $name = $attributes['alias'];
                 }
                 $gatewaysFactoriesIds[$name] = $gatewayFactoryId;
 
